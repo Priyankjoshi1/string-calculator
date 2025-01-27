@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it to test string calculator renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "flex-start",
+      "marginTop": 100,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Text>
+      Enter your numbers with separation of ","
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter your values"
+      style={
+        {
+          "backgroundColor": "#ebebeb",
+          "borderRadius": 20,
+          "height": 50,
+          "marginHorizontal": 30,
+          "marginTop": 20,
+          "textAlign": "center",
+          "width": "80%",
+        }
+      }
+      testID="inputBox"
+      value=""
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#0000ff",
+          "borderRadius": 20,
+          "height": 50,
+          "justifyContent": "center",
+          "marginTop": 50,
+          "opacity": 1,
+          "width": "80%",
+        }
+      }
+      testID="submitButton"
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+          }
+        }
+      >
+        Submit
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "marginTop": 100,
+      }
+    }
+    testID="resultString"
+  />
+</View>
+`;
